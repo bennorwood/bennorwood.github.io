@@ -1,0 +1,21 @@
+# Setup
+title:        Ben Norwood's Page
+tagline: >-
+  My personal page of projects, and developer insight (WIP).
+baseurl:      ""
+paginate:     1
+
+
+# About/contact
+author:
+  name:       Ben Norwood
+  url:        https://www.linkedin.com/in/benjamin-norwood-71ab8577/
+  twitterHandle: daBenzino
+  githubUsername:  bennorwood
+  linkedInProfile:  benjamin-norwood-71ab8577
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
