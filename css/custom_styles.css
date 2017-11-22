@@ -1,3 +1,23 @@
+.z-index-0 {
+    z-index: 0;
+}
+
+.page-header-container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.db {
+    display: block;
+}
+
+.profile-container {
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px #263238;
+}
+
 .stars-one {
     position: absolute;
     top: 0;
@@ -30,15 +50,7 @@
     -webkit-animation: move-stars-two 10s linear infinite;
 }
 
-.page-header {
-    position: relative;
-    z-index: -20;
-    background-image: linear-gradient(120deg, #106ece, #2f3d4c);
-}
 
-.db {
-    display: block;
-}
 
 .margin-left-1half-em {
     margin-left: 0.5em;
@@ -154,5 +166,55 @@
     }
     100% {
         opacity: 0;
+    }
+}
+
+/* Page Header Overrides */
+.page-header-bg {
+    background-image: linear-gradient(120deg, #106ece, #2f3d4c);
+    position: absolute;
+    z-index: -20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 24rem;
+}
+
+.page-header-content{
+    width: 100%;
+    height: 24rem;
+    top: 0;
+    left:0;
+}
+
+.about-me .content {
+    width: 60%;
+}
+
+@media screen and (max-width: 42em){
+    .page-header-bg, .page-header-content {
+        padding: 2rem 1rem;
+    }
+    
+    .profile-container  img{
+        height: 150px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em){
+    .page-header-bg, .page-header-content  {
+        padding: 3rem 4rem;
+    }
+    
+    .profile-container  img{
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 64em){
+    .page-header-bg, .page-header-content  {
+        padding: 5rem 6rem;
     }
 }
