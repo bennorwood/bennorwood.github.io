@@ -5,11 +5,17 @@ tagline: >-
 baseurl:      ""
 paginate:     1
 
+
+# Blog
+blog:
+    enabled:    false
+
 # About/contact
 author:
   name:       Ben Norwood
   email:      contact@bennorwood.co
   url:        https://www.linkedin.com/in/benjamin-norwood-71ab8577/
+  resume:     resume.pdf
   twitterHandle: daBenzino
   githubUsername:  bennorwood
   linkedInProfile:  benjamin-norwood-71ab8577
