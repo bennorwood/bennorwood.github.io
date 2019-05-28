@@ -14,7 +14,7 @@ permalink: /about/
         <p>My favorite things include sports, nature, and most music.</p>
     </div>
     <div class="pull-right profile-container">
-        <img src="https://pbs.twimg.com/profile_images/378800000639886929/7db3d3bc49fa16c4269de9a01b2eeddb_400x400.jpeg" height="250" width="auto"/>
+        <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/859768_626368617380233_1852070752_o.jpg?_nc_cat=111&_nc_oc=AQnb6pfQaM2ZCzQ0wpJQMuH_ykDRnAaA89PataFnBnag00E8unek3K-kGUMuDC0jv_BZHRn_XUeDCH0e4qNkTfdQ&_nc_ht=scontent-atl3-1.xx&oh=f625c1c0d180474cf7c025bab5063751&oe=5D59E18F" height="250" width="auto"/>
     </div>
     <div class="clearfix"></div>
 </div>
